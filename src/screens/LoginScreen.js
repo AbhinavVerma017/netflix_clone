@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './LoginScreen.css'
 import SignupScreen from './SignupScreen';
+import logo from '../assets/netflix-logo-icon.svg'
 
 function LoginScreen() {
     const [signIn, setSignIn]= useState(false);
@@ -9,11 +10,11 @@ function LoginScreen() {
     <div className='loginScreen'>
         <div className='loginScreen__background'>
             <img className='loginScreen__logo'
-             src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png' alt='netflix_logo' />
+             src={logo} alt='netflix_logo' />
 
              <button onClick={() => setSignIn(true)}
               className='loginScreen__button'>
-                Sig In
+                Sign In
              </button>
               <div className='loginScreen__gradient'/>
         </div>

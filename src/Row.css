@@ -31,3 +31,41 @@
 .row_posterLarge{
     max-height: 250px;
 }
+
+.row_trailer {
+  position: relative;
+  margin-top: 20px;
+}
+
+.row_closeButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.row__trailerContainer {
+  position: relative;
+  margin-top: 20px;
+}
+
+.row__closeButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
